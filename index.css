@@ -215,10 +215,11 @@ animation-iteration-count:infinite;
    height: 30px;
     background-color: rgba(176, 174, 174, 0.279);
 }
+
 .contacts1{
    background-color: chocolate;
     padding: 2px;
-    width: 20px;
+    width: auto;
    font-size: larger;
    border: none;
    font-family: 'Times New Roman', Times, serif;
@@ -360,6 +361,13 @@ li{
     margin-top: 7px;
     border-radius: 20px;
     transition: all 0.3s;
+}
+.contacts1{
+  width: auto;
+}
+.contacts{
+  position: fixed;
+  width: 100%;
 }
 }  
 .title{
