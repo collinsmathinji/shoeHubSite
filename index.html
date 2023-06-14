@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>sho-e-p</title>
 </head>
 <div class="container1">
     <h1 class="header">Welcome to Collins Shoes Kenya</h1>
      <p class="motto">Where your shopping is <span class="auto"></span></p>
  </div>
- <div class="search">
-    <label for="search" class="label">Search Shoes:</label>
-    <input type="search" id="input" placeholder="Eg. Airforce" onkeyup="search()">
- </div>
 <body>
+    <nav class="navbar">
+        <div class="logo">Shoes</div>
+        <ul class="nav-links">
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+         <div class="menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#product">Shoes</a></li>
+            <li><a href="#contacts">contacts</a></li>
+          </div>
+        </ul>
+      </nav>
+    
+     <div class="search">
+        <label for="search" class="label">Search Shoes:</label>
+        <input type="search" id="input" placeholder="Eg. Airforce" onkeyup="search()">
+     </div>
     <div class="container" id="product">
         <div class="official" id="all">
             <img src="official.jpg" alt="sharpshoter" class="img">
@@ -77,6 +90,30 @@
             <button class="button">Buy</button>
         </div>
     </div>
+    <div class="anchors">
+        <p>
+            <ol >
+               <li>
+                <div class='bx bxl-twitter bx-tada bx-flip-vertical' style='color:#5080ff' id="cu" ></div>
+               <a href="https://twitter.com/collins16330700">Twitter</a>
+               </li>
+               <li>
+                <div class='bx bxl-whatsapp-square bx-fade-left bx-flip-vertical' style='color:#1d8844' id="cu"></div>
+               <a href="https://wa.link/hs90de">Whatsapp</a>
+               </li>
+               <li>
+                <div class='bx bxl-instagram-alt bx-flip-vertical bx-burst' style='color:#d41f79' id="cu"></div>
+                <a href="https://www.instagram.com/_ft_macharia254/">instagram</a>
+               </li> 
+            </ol>
+           </p>
+    </div>
+<footer class="contacts" id="contacts">
+  <div class="container2">
+   <button class="contacts1">Contacts</button>
+  </div>
+ </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
   var typed= new Typed(".auto",
