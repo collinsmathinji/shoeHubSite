@@ -122,7 +122,6 @@ animation-iteration-count:infinite;
   }
 .motto{
     font-family: "fogaza",cursive;
-    font-style: italic;
     font-size: 27px;
     color: darksalmon;
    
@@ -290,7 +289,11 @@ li{
      .hamburger {
        display: block;
      }
-   
+   .container{
+    display: flex;
+    justify-content:center;
+   flex-wrap: wrap;
+   }
    }  
 .title{
     background-color: rgba(95, 88, 88, 0.253);
