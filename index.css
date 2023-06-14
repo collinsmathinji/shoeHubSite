@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
-
+html{
+    background-image:radial-gradient(gray,black);
+}
 body{
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,7 +20,10 @@ body{
     padding: 10px;
     width: 850px;
     max-width: 100%; /* Adjust this value as needed */
-    margin: 0 auto; /* Centers the container horizontally */
+    margin: 0 auto; /* Centers the container 
+    horizontally */
+    background: url(africa.jpg) no-repeat center center/ cover;
+    border-radius: 5px;
 }
 .official{
     margin-left: 30px;
@@ -134,12 +140,15 @@ animation-iteration-count:infinite;
   align-items: center;
 }
 #input{
+    font-size: larger;
+    text-align: center;
     align-items: center;
     width: 35%;
     height: 45px;
     border: none;
     box-shadow: rgb(129, 73, 73) 4px 4px 4px;
     border-radius: 10px;
+    background-color: darkgrey;
 }
 .label{
     font-size: 40px;
