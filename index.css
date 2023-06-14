@@ -3,8 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+html{
     background:url(africa.jpg) no-repeat center center/ cover;
+}
+body{
     height: 100vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
