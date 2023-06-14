@@ -292,7 +292,7 @@ li{
      }
    .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
    }
    #input{
     width: 100%;
