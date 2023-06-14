@@ -292,7 +292,7 @@ li{
      }
    .container{
     display: flex;
-    
+    justify-content: space-between;
    }
    #input{
     width: 100%;
@@ -300,7 +300,7 @@ li{
    .official{
    
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 20px;
     margin-bottom: 90px;
     border: none;
     box-shadow: 3px 3px 3px 3px gray;
@@ -313,7 +313,7 @@ li{
    .classic{
     margin-bottom: 90px;
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 20px;
     background-color: aliceblue;
     border: solid black 3px;
     height: 55vh;
@@ -323,7 +323,7 @@ li{
 .normal{
     margin-bottom: 90px;
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 20px;
    
     background-color: aliceblue;
     border: solid black 3px;
@@ -334,7 +334,7 @@ li{
 .gucci{
     margin-bottom: 90px;
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 20px;
     background-color: aliceblue;
     border: solid black 3px;
     height: 55vh;
@@ -344,7 +344,7 @@ li{
 .balenciaga{
     margin-bottom: 90px;
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 20px;
     
     background-color: aliceblue;
     border: solid black 3px;
