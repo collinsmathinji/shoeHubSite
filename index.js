@@ -18,4 +18,23 @@
       }
     }
   };
+
+let contacts=document.querySelector(".contacts1")
+let anchors=document.querySelector(".anchors")
+contacts.addEventListener("click",function(){
+  if(anchors.style.display==="none"){
+    anchors.style.display="block";}
+  else{
+    anchors.style.display="none";
+  }
+})
+let ham=document.querySelector(".hamburger")
+let menu=document.querySelector(".menu")
+ham.addEventListener("click",function(){
+  if(menu.style.display==="none"){
+    menu.style.display=""
+  }else{
+    menu.style.display="block"
+  }
+})
   
