@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(africa.jpg) no-repeat center center/ cover;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    width: 850px;
+    max-width: 100%; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+}
+.official{
+    margin-left: 30px;
+    margin-top: 10px;
+   
+    background-color: aliceblue;
+    border: solid black 3px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.classic{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: solid black 3px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.normal{
+    margin-left: 30px;
+    margin-top: 10px;
+   
+    background-color: aliceblue;
+    border: solid black 3px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.gucci{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+    border: solid black 3px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.balenciaga{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    background-color: aliceblue;
+    border: solid black 3px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.button{
+    font-size: 30px;
+    width: 170px;
+    background-color: chocolate;
+    border: none;
+    margin-top: 7px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: translateY(-10px);
+    background-color: chocolate;
+    color: aliceblue;
+    cursor: pointer;
+}
+.price{
+    font-size: larger;
+    margin-top: 20px;
+}
+.img{
+    background-color: aliceblue;
+    border-radius: 20px 20px 0 0;
+}
+.header{
+    color: maroon;
+font-size: 50px;
+animation-name: animate;
+animation-duration: 4s;
+animation-delay: 1s;
+animation-iteration-count:infinite;
+}
+  @keyframes animate {
+  0%{
+    transform: translateX(-300px);
+  }
+  100%{
+    transform: translateX(-400px);
+  }
+  50%{
+    transform: translateX(0);
+  }
+  }
+.motto{
+    font-family: "fogaza",cursive;
+    font-style: italic;
+    font-size: 27px;
+    color: darksalmon;
+   
+}
+.container1{
+    text-align: center;
+}
+#all:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.auto{
+    color: rgb(154, 210, 1);
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+#input{
+    align-items: center;
+    width: 35%;
+    height: 45px;
+    border: none;
+    box-shadow: rgb(129, 73, 73) 4px 4px 4px;
+    border-radius: 10px;
+}
+.label{
+    font-size: 40px;
+    color:yellowgreen;
+}
