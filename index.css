@@ -214,7 +214,8 @@ animation-iteration-count:infinite;
    justify-content: center;
    height: 30px;
     background-color: rgba(176, 174, 174, 0.279);
-}
+   margin-top: 30px;
+  }
 
 .contacts1{
    background-color: chocolate;
@@ -366,7 +367,7 @@ li{
   width: auto;
 }
 .contacts{
-  position: fixed;
+  
   width: 100%;
 }
 }  
