@@ -28,13 +28,27 @@ contacts.addEventListener("click",function(){
     anchors.style.display="none";
   }
 })
-let ham=document.querySelector(".hamburger")
-let menu=document.querySelector(".menu")
-ham.addEventListener("click",function(){
-  if(menu.style.display==="none"){
-    menu.style.display=""
-  }else{
-    menu.style.display="block"
+let ham = document.querySelector(".hamburger");
+let menu = document.querySelector(".menu");
+
+ham.addEventListener("click", function() {
+  if (menu.style.display === "none") {
+    menu.style.display = "";
+  } else {
+    ham.innerHTML = "&times;";
+    ham.classList.add("x");
+    menu.style.display = "block";
   }
-})
-  
+
+  let v = document.querySelector(".x");
+  v.addEventListener("click", function() {
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+      ham.innerHTML = "&#9776;";
+    }else if(ham.innerHTML = "&#9776;"){
+      ham.innerHTML = "&times;";
+      ham.classList.add("x");
+      menu.style.display = "block";
+    }
+  });
+});
